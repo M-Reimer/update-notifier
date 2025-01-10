@@ -30,7 +30,7 @@ async function init() {
   else {
     if (VersionChecker.error) {
       alert(VersionChecker.error);
-      document.getEleementById("img_error").classList.remove("hidden");
+      document.getElementById("img_error").classList.remove("hidden");
     }
     else {
       document.getElementById("img_warning").classList.remove("hidden");
