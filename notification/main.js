@@ -1,6 +1,6 @@
 /*
     Firefox addon "Update Notifier"
-    Copyright (C) 2024  Manuel Reimer <manuel.reimer@gmx.de>
+    Copyright (C) 2025  Manuel Reimer <manuel.reimer@gmx.de>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -30,7 +30,7 @@ async function init() {
   else {
     if (VersionChecker.error) {
       alert(VersionChecker.error);
-      document.getEleementById("img_error").classList.remove("hidden");
+      document.getElementById("img_error").classList.remove("hidden");
     }
     else {
       document.getElementById("img_warning").classList.remove("hidden");
